@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-10 offset-1">
 
-                <form action="" method="get">
+                <form action="text.php" method="get">
 
                     <div class="row">
 
@@ -25,8 +25,8 @@
 
                             <div class="mt-5">
 
-                                <label class="form-label">Inserisci una parola da censurare</label>
-                                    <input type="text" name="censorship" class="form-control" placeholder="Parola da censurare...">
+                                <label class="form-label">Inserisci una parola</label>
+                                    <input type="text" name="censorship" class="form-control" placeholder="Parola...">
                                 </div>
 
                             </div>
@@ -39,7 +39,7 @@
                             <div class="my-3">
 
                                 <label class="form-label">Inserisci un testo</label>
-                                    <textarea class="form-control" rows="3" placeholder="Testo..."></textarea>
+                                    <textarea class="form-control" name="text" rows="3" placeholder="Testo..."></textarea>
                                 </div>
 
                             </div>
@@ -48,7 +48,7 @@
                             <div class="mt-3 text-center">
     
                                 <button type="submit">
-                                    Invia!
+                                    Censura!
                                 </button>
     
                             </div>
