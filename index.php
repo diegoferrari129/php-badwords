@@ -1,5 +1,5 @@
 <?php
-    // variables
+   
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +39,7 @@
                             <div class="my-3">
 
                                 <label class="form-label">Inserisci un testo</label>
-                                    <textarea class="form-control" name="text" rows="3" placeholder="Testo..."></textarea>
+                                    <input type="text" name="text" class="form-control" placeholder="Testo...">
                                 </div>
 
                             </div>

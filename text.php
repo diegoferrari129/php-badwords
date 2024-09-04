@@ -1,5 +1,6 @@
 <?php 
-    //variables
+    $censorship = $_GET['censorship'];
+    $text = $_GET['text'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p><?php echo $text; ?></p>
 </body>
 </html>
